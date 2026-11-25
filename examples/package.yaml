@@ -1,0 +1,10 @@
+# packages/doorbell_speaker.yaml
+media_player:
+  - platform: go2rtc_speaker
+    name: Front door speaker
+    unique_id: front_door_speaker
+    url: http://192.168.1.10:1984   # go2rtc API (e.g. Frigate's go2rtc or the go2rtc add-on)
+    stream: front_door              # go2rtc stream that has the camera's two-way audio
+    codec: pcmu                     # codec of the camera's backchannel (Reolink: pcmu)
+    lead_in_ms: 0                   # silence before the audio
+    tail_s: 8                       # silence after the audio (Reolink drops buffered audio on disconnect)

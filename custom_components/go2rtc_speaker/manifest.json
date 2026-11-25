@@ -1,0 +1,16 @@
+{
+  "domain": "go2rtc_speaker",
+  "name": "go2rtc Speaker",
+  "codeowners": [
+    "@Aggro600"
+  ],
+  "dependencies": [
+    "http",
+    "media_source"
+  ],
+  "documentation": "https://github.com/Aggro600/go2rtc-Speaker",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Aggro600/go2rtc-Speaker/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

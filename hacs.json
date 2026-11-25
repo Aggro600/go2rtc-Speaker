@@ -1,0 +1,5 @@
+{
+  "name": "go2rtc Speaker",
+  "render_readme": true,
+  "homeassistant": "2025.1.0"
+}
